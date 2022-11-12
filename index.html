@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>barderos.click</title>
+  <meta name="author" content="itscafu">
+  <meta name="name"content="barderos.click" />
+  <meta name="description"content="malos cantores">
+  <meta name="og:title"content="barderos.click" />
+  <meta name="og:description"content="malos cantores" />
+  <link href='https://fonts.googleapis.com/css?family=Orbitron:900' rel='stylesheet' type='text/css'>
+  <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+<div id="wrapper">
+      <canvas id="stage"></canvas>
+	  
+	<a id="pvid" onclick="mdbcrew();"><i style="color:#fff;cursor:pointer;font-size:24px;text-align:-webkit-center;display:block;" class="fa fa-play "></i></a><br>
+		
+	<div class="container" style="height: 100%; display: flex; align-items: center; justify-content: center;">
+		<input id="puredrug"  value="100" type="range" min="0" max="100" step="1" oninput="Volumen(this.value)" onchange="Volumen(this.value)" class="range blue">
+		</input>
+	</div>
+</div>
+
+<script>
+function mdbcrew() { 
+	cro();
+	document.getElementById("wrapper").style.display="none"; 
+}
+</script>
+<!--
+        chicos del barrio
+        t.me/itscafu
+    -->
+<body link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF"> 
+	<video loop id="video-background" plays-inline>
+	  <source src="vid.mp4" type="video/mp4">
+	</video>
+</body>
+    <script src='js/dat.js'></script>
+    <script src="js/vid.js"></script>
+	
+</html>

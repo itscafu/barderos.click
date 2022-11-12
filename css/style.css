@@ -1,0 +1,79 @@
+/*
+MDB NO ES GANGA, ES FAMILIA
+
+t.me/itscafu
+*/
+body {
+    background: black;
+    overflow: hidden; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  #wrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  pre {
+      text-align: center;
+      font-family: monospace;
+  }
+  
+  a {
+      text-decoration:none;
+  }
+  
+  a:hover {
+      color: #cfcfcf;
+  }
+  
+  i {
+      font-size:32px;
+      text-align:-webkit-center;
+      display:block;
+  }
+  
+  .parent {
+      position:relative;
+      float: left;
+      width: 91.5%;
+      min-width: 825px;
+      height: 120px;
+      text-align: left;
+      z-index: 1;
+      margin-left:3.7%;
+      margin-right:3.7%;
+      padding-left:0.5%;
+      padding-right:0.5%;
+  }
+  .link {
+      position:absolute;
+      width:100%;
+      bottom:0;
+      text-align:center;
+  }
+  
+  #video-background {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: 100vh;
+      z-index: -1000;
+      overflow: hidden;
+  }
+  
+  canvas {
+    box-sizing: border-box;
+    padding: 0 0 0 0;
+    margin: 20px auto 0;
+    text-align: center;
+    max-width: 100%;
+  }
